@@ -20,7 +20,7 @@ $result = $conn->query($sql);
 
 </head>
 <body>
-  <h2 style="text-align:center;">User List</h2>
+  <h2 style="text-align:center;">Employee List</h2>
   <table>
     <tr>
       <th>ID</th>
