@@ -8,7 +8,7 @@ if ($conn->connect_error) {
 }
 
 // Get data from 'users' table
-$sql = "SELECT branch_id, supplier_name, supplier_type, FROM branch_supplier";
+$sql = "SELECT branch_id, supplier_name, supplier_type FROM branch_supplier";
 $result = $conn->query($sql);
 ?>
 
